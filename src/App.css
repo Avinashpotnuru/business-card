@@ -31,7 +31,7 @@ h4,
 h5,
 p,
 figure,
-picture {
+div picture {
   margin: 0;
 }
 
@@ -105,8 +105,16 @@ li {
   display: flex;
   flex-direction: column;
   border-radius: 0px 0px 10px 10px;
+
+ 
 }
 
+@media screen and (max-width: 400px) {
+  .main__section {
+    
+    max-width: 100%;
+  }
+}
 
 .section-info {
   padding: 1em 2.1875em;
