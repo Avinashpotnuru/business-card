@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+import "./App.css";
 import Info from "./components/Info";
 import About from "./components/About";
 import Interest from "./components/Interest";

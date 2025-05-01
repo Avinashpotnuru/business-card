@@ -65,10 +65,11 @@ body {
 }
 
 /* make images easier to work with */
-img,
-picutre {
+img {
   max-width: 100%;
   display: block;
+  padding: 5px;
+  
 }
 
 
