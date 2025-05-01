@@ -29,7 +29,7 @@ export default function Footer() {
   return (
     <>
       <footer className="section_footer">
-        <ul className="footer_social flex gap-4">
+        <ul className="footer_social">
           {socialLinks.map(({ href, label, icon, className }) => (
             <li key={label}>
               <a

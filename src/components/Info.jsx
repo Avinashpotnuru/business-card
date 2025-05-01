@@ -1,7 +1,8 @@
 import React from "react";
 import { IoMail } from "react-icons/io5";
-import MailTo from "./MailTo";
+
 import myImage from "/myImage.jpeg";
+import Mailto from "./Mailto";
 
 export default function Info() {
   return (
@@ -20,7 +21,7 @@ export default function Info() {
           Know more
         </button>
         <div className="contact">
-          <MailTo
+          <Mailto
             email="potnuruavinash@gmail.com"
             subject="Let's Talk"
             body="Hey, Avinash"
@@ -28,7 +29,7 @@ export default function Info() {
           >
             <IoMail className="icon" />
             <span>Email</span>
-          </MailTo>
+          </Mailto>
           <a
             href="https://www.linkedin.com/in/avinash-potnuru/"
             target="_"
